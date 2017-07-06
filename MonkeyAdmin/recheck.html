@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MonkeyCheckout</title>
+<!-- Insert this line above script imports  -->
+<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+<!-- normal script imports etc  -->
+<script src="public/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<link href="public/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script src="public/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="public/js/recheck.js" type="text/javascript"></script>
+<!-- Insert this line after script imports -->
+<script>if (window.module) module = window.module;</script>
+
+<style>
+#colorstrip{
+    width: 100%; height: 100px;
+	
+
+}
+	#add,#custom,#clear{
+		background-color: #F3F3F3!important;
+		
+	}
+	#add:hover,#custom:hover,#clear:hover{
+		background-color: #929292!important;
+		color: rgba(255,255,255,1.00)!important
+	}
+	@font-face { font-family: Quark-Light; src: url(public/fonts/Quark-Light.otf); } 
+	html *
+	{
+	   font-family: Quark-Light !important;
+	}	
+</style>
+</head>
+<body>
+<div id="colorstrip" align="center">
+<div class="col-md-1 col-xs-1" style="padding-left: 0;" align="left">
+<img src="public/back.png" width="100" height="100" onmouseover="this.src='public/backhover.png';" onmouseout="this.src='public/back.png';" id="back">
+</div>
+<div class="col-md-10 col-xs-10" align="center">
+<label style="font-size: 100px;">Recheck</label>
+</div>
+</div>
+<br>
+<br>
+<div class="container" align="center">
+<div class="container col-md-12" >
+<input size="50" style="-moz-border-radius: 5px; border-radius: 5px;border:solid 1px black;padding: 5px; font-size: 200%;text-align: center;" type="text" autocomplete="off" id="input">
+</div>
+<div class="container col-md-12"><br><br></div>
+<div class="container col-md-12" style="background-color:#FEF7FF;height: 400px" align="left">
+<p id="test"></p>
+</div>
+</div>
+
+
+<script>
+document.getElementById("test").innerHTML = "山モ禁勢本スニソ作母ラ国報み関新界レ新文レホ資転な一形求ホ告負へこ況当攻二ぜス高提劣嘆寧皿そ。養キモ円無しクぞ化71告てが多聞らぎへ著政ホヒサチ抱使サナセ清信セル掲41倶宰31倶宰7北フソハ有秋く交事件直ラヲ京予こ聞智メ版募含水すさだめ。事身ぼこゅ断2表そ銭一ヨメロワ辺万いとう教米ワシタ工車モリ申孝ルいう分着ざンち球干ッねぜさ航接せ突犯慣葬雄フ。<br><br>51伸ス囲村フヘル相子不ロサラウ力父的す任年病速ソ突料ヤ襲画エ健社カムクロ迎勢まお伎七俊奈ぎぜよ。則ひ東陸ぞべ票権へゆた文笑購リ築1振セヱヒ全投か若断スはし施竹トぱ総安練ルホモ丸休けご売成ハ変演係傑けて。寒ロ来仁ルお探著ろね画特ぼら要営ワ権定ロルオハ治取キコ勝刑べせひと飛8真面ラッ性文つ准冷クお退24読ユ航53用発フリかイ子丁侵暗柄えんぎ。<br><br>銀エトタ季1来サエカ紙説た東変氷ねよす石掲でょけち者仏すぽまご入経ハフヱシ件沸つぽ杉更どご乱棋ごたぼれ分5針克即乳ねイよ。購コヲ道自ぴぞぽ視言れざを品59清ンよた引名クユセ図座必トネ省予ヨカ際職さ印並スばまょ伴馬元ノ治勝モヤロ子人で宅語締伏涙煮んむ。面ンリス上植サ官激担台ヨスコ断変ふのばへ犯体ケツタテ生私さ情技イリ思区ヘツ後治ぱじーち意談8埼60康ウユ徴歩サテホラ術方比謙どそ。<br><br>陽ラツ名注海ホ通迫保ッー棄面ごた予社え桜牲う日70実げリょ待給ざ川34円懲9奉べさいゆ合政九ぴきねひ露読毎ぶば。筋や改恐ニ寄騰開スラウ丈沖税アコミシ東工ゆぎがる出郵医ま温杯弘モヨコト半市色てや。高オラ価球ヲイ愛紛ホトヤ断弘シ風行オモ城京ばふドほ海本サ直撮サラヤ慢3品がルす虹面ルム済騎ざむぶ退拡べゃずラ。";
+</script>
+
+</body>
+</html>

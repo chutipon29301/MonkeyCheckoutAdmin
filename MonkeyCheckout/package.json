@@ -1,0 +1,16 @@
+{
+  "name": "studentcheckout",
+  "productName": "app",
+  "version": "0.0.1",
+  "description": "Checkout",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Witch",
+  "license": "MONKEY-MONKEY",
+  "devDependencies": {
+    "electron": "^1.6.11"
+  },
+  "dependencies": {}
+}
