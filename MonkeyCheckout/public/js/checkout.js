@@ -49,6 +49,11 @@ $(document).ready(function(){
 		fs.writeFileSync('config.json',JSON.stringify(allconfig));
 		console.log('success')
 	})
+	$(window).click(function(){
+		if(!($('#myModal').hasClass('in')) && !($('#config').hasClass('in'))){
+			$('#studentinput').focus()
+		}
+	})
 })
 function checkout(barcode,fee){
 	$('#loading').show()

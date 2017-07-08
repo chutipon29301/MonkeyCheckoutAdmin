@@ -11,4 +11,7 @@ $(document).ready(function(){
 	$('#recheck').click(function(){
 		self.location = 'recheck.html'
 	})
+	$('#configbtn').click(function(){
+		$('#config').modal()
+	})
 })
